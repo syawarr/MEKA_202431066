@@ -178,7 +178,9 @@ Informasi yang ditampilkan:
 - Total Pendaftaran
 - Total Pembayaran Valid
 - Event Terbaru
+  
 ![Dashboard](dashboard.png)
+
 Tujuan:
 
 Memberikan ringkasan kondisi sistem secara cepat kepada administrator.
@@ -187,42 +189,44 @@ Memberikan ringkasan kondisi sistem secara cepat kepada administrator.
 
 ## 2. Menu User
 digunakan untuk mengelola data pengguna sistem. Admin dapat melakukan operasi CRUD (Create, Read, Update, Delete) terhadap data user yang terdaftar.
+
 ![Data User](user.png)
+
 ---
 
 ## 3. Menu Kategori Event
-
 Digunakan untuk mengelompokkan event berdasarkan kategori tertentu seperti seminar, workshop, webinar, maupun kompetisi sehingga data kegiatan lebih terstruktur.
+
 ![Kategori Event](kategori.png)
 ---
 
 ## 4. Menu Event
-
 dapat mengelola seluruh data kegiatan kampus, meliputi nama event, kategori, tanggal pelaksanaan, lokasi, kuota peserta, dan biaya pendaftaran.
+
 ![Data Event](event.png)
+
 ---
-
 ## 5. Menu Peserta
-
 digunakan untuk mengelola data peserta yang mengikuti kegiatan kampus. Data peserta dapat ditambahkan, diperbarui, maupun dihapus sesuai kebutuhan
+
 ![Data Peserta](peserta.png)
 ---
 
 ## 6. Menu Pendaftaran
-
 Berfungsi untuk menghubungkan peserta dengan event yang dipilih. Setiap data pendaftaran akan tersimpan dan dapat dipantau melalui sistem.
 ![Pendaftaran Event](pendaftaran.png)
 ---
 
 ## 7. Menu Pembayaran
-
 Digunakan untuk mencatat transaksi pembayaran peserta serta melakukan verifikasi status pembayaran menjadi Valid atau Pending.
+
 ![Pembayaran](pembayaran.png)
 ---
 
 ## 8. Menu Laporan
-
 Menyajikan berbagai informasi statistik seperti total event, total peserta, total pendaftaran, total pendapatan, event terpopuler, pendapatan per event, dan statistik peserta berdasarkan program studi.
+
+![Laporan](laporan.png)
 
 ### Dashboard Laporan, Insight Event, Top 5 Event terpopuler
 Menampilkan:
