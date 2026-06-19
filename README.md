@@ -1,6 +1,17 @@
-# SIMEKA (Sistem Manajemen Event Kampus)
+# Student Connect
 
-SIMEKA adalah aplikasi berbasis web yang digunakan untuk mengelola kegiatan event kampus secara terintegrasi, mulai dari pengelolaan event, peserta, pendaftaran, pembayaran, hingga laporan.
+Student Connect merupakan platform manajemen kegiatan mahasiswa yang dirancang untuk membantu pengelolaan event kampus secara terintegrasi. Sistem ini memfasilitasi pengelolaan event, data peserta, pendaftaran, pembayaran, hingga laporan dalam satu aplikasi yang mudah digunakan.
+
+## Problem Solving
+
+Aplikasi ini dikembangkan untuk membantu:
+
+- Mengurangi pencatatan data secara manual.
+- Mempermudah pengelolaan event dan peserta.
+- Membantu proses pendaftaran kegiatan secara terstruktur.
+- Memudahkan verifikasi pembayaran peserta.
+- Menyediakan laporan dan statistik kegiatan secara cepat.
+- Meningkatkan efisiensi administrasi organisasi dan kepanitiaan.
 
 ## Teknologi yang Digunakan
 
