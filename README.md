@@ -19,7 +19,6 @@ Aplikasi ini dikembangkan untuk membantu:
 - MySQL
 - HTML5
 - CSS3
-- JavaScript
 - XAMPP
 
 ---
@@ -27,7 +26,7 @@ Aplikasi ini dikembangkan untuk membantu:
 # Struktur Project
 
 ```plaintext
-SIMEKA/
+Student Connect/
 │
 ├── assets/
 │   └── style.css
@@ -92,15 +91,10 @@ SIMEKA/
 
 ## 1. Install XAMPP
 
-Download dan install XAMPP terlebih dahulu.
-
-Pastikan service berikut aktif:
-
+install XAMPP terlebih dahulu dan memastikan service berikut aktif:
 - Apache
 - MySQL
-
 ---
-
 ## 2. Simpan Project
 
 Pindahkan folder project ke dalam direktori:
