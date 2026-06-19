@@ -87,7 +87,7 @@ Student Connect/
 
 ---
 
-# Cara Menjalankan Aplikasi Secara Lokal
+## Cara Menjalankan Aplikasi Secara Lokal
 
 ## 1. Install XAMPP
 
