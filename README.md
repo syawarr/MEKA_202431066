@@ -101,60 +101,36 @@ C:\xampp\htdocs\
 ```
 ---
 ### 3. Membuat Database
-
 Buka browser:
-
 ```plaintext
 http://localhost/phpmyadmin
 ```
-
-Langkah-langkah:
-
-1. Klik **New**
-2. Buat database baru dengan nama:
-
-```sql
-simeka
-```
-
-3. Klik tombol **Create**
-
----
 
 ## 4. Import Database
 
 Pilih database:
 
 ```plaintext
-simeka
+project_ir
 ```
-
 Kemudian:
-
 1. Klik menu **Import**
 2. Klik **Choose File**
 3. Pilih file:
-
 ```plaintext
 database/simeka.sql
 ```
-
 4. Klik **Go**
-
 Tunggu hingga proses import selesai.
-
 ---
 
 ## 5. Konfigurasi Database
 
 Buka file:
-
 ```plaintext
 config/koneksi.php
 ```
-
 Pastikan konfigurasi sesuai:
-
 ```php
 <?php
 
@@ -167,7 +143,6 @@ $conn = mysqli_connect(
 
 ?>
 ```
-
 ---
 
 ## 6. Menjalankan Aplikasi
@@ -184,11 +159,9 @@ Buka browser:
 ```plaintext
 http://localhost/SIMEKA
 ```
-
 atau sesuaikan dengan nama folder project.
 
 Contoh:
-
 ```plaintext
 http://localhost/PROJECT LAB IR (GOOD LUCK)
 ```
@@ -198,9 +171,7 @@ http://localhost/PROJECT LAB IR (GOOD LUCK)
 # Petunjuk Operasional Sistem
 
 ## 1. Dashboard
-
 Dashboard merupakan halaman utama sistem.
-
 Informasi yang ditampilkan:
 
 - Total Event
@@ -208,7 +179,7 @@ Informasi yang ditampilkan:
 - Total Pendaftaran
 - Total Pembayaran Valid
 - Event Terbaru
-
+![Dashboard](dashboard.png)
 Tujuan:
 
 Memberikan ringkasan kondisi sistem secara cepat kepada administrator.
@@ -216,217 +187,57 @@ Memberikan ringkasan kondisi sistem secara cepat kepada administrator.
 ---
 
 ## 2. Menu User
-
-Digunakan untuk mengelola data pengguna sistem.
-
-### Tambah User
-
-Langkah:
-
-1. Klik menu **User**
-2. Klik tombol **Tambah User**
-3. Isi seluruh data yang diperlukan
-4. Klik **Simpan**
-
-### Edit User
-
-Langkah:
-
-1. Klik tombol **Edit**
-2. Ubah data yang diperlukan
-3. Klik **Update**
-
-### Hapus User
-
-Langkah:
-
-1. Klik tombol **Hapus**
-2. Konfirmasi penghapusan data
-
+digunakan untuk mengelola data pengguna sistem. Admin dapat melakukan operasi CRUD (Create, Read, Update, Delete) terhadap data user yang terdaftar.
+![Data User](user.png)
 ---
 
 ## 3. Menu Kategori Event
 
-Digunakan untuk mengelompokkan event berdasarkan jenis kegiatan.
-
-### Tambah Kategori
-
-Langkah:
-
-1. Klik menu **Kategori Event**
-2. Klik **Tambah Kategori**
-3. Isi nama kategori
-4. Isi deskripsi kategori
-5. Klik **Simpan**
-
-Contoh:
-
-- Seminar
-- Workshop
-- Webinar
-- Kompetisi
-
+Digunakan untuk mengelompokkan event berdasarkan kategori tertentu seperti seminar, workshop, webinar, maupun kompetisi sehingga data kegiatan lebih terstruktur.
+![Kategori Event](kategori.png)
 ---
 
 ## 4. Menu Event
 
-Digunakan untuk mengelola seluruh kegiatan kampus.
-
-### Tambah Event
-
-Langkah:
-
-1. Klik menu **Event**
-2. Klik **Tambah Event**
-3. Pilih kategori event
-4. Isi nama event
-5. Isi tanggal pelaksanaan
-6. Isi lokasi kegiatan
-7. Isi biaya pendaftaran
-8. Isi kuota peserta
-9. Klik **Simpan**
-
-### Edit Event
-
-1. Klik tombol **Edit**
-2. Perbarui data
-3. Klik **Update**
-
-### Hapus Event
-
-1. Klik tombol **Hapus**
-2. Konfirmasi penghapusan
-
+dapat mengelola seluruh data kegiatan kampus, meliputi nama event, kategori, tanggal pelaksanaan, lokasi, kuota peserta, dan biaya pendaftaran.
+![Data Event](event.png)
 ---
 
 ## 5. Menu Peserta
 
-Digunakan untuk mengelola data peserta.
-
-### Tambah Peserta
-
-Langkah:
-
-1. Klik menu **Peserta**
-2. Klik **Tambah Peserta**
-3. Isi data peserta
-4. Klik **Simpan**
-
-Data yang diinput:
-
-- Nama Peserta
-- NIM
-- Program Studi
-- Fakultas
-- Email
-- Nomor Telepon
-
-### Edit dan Hapus Peserta
-
-Dilakukan melalui tombol:
-
-- Edit
-- Hapus
-
-pada tabel peserta.
-
+digunakan untuk mengelola data peserta yang mengikuti kegiatan kampus. Data peserta dapat ditambahkan, diperbarui, maupun dihapus sesuai kebutuhan
+![Data Peserta](peserta.png)
 ---
 
 ## 6. Menu Pendaftaran
 
-Digunakan untuk mendaftarkan peserta ke event tertentu.
-
-### Tambah Pendaftaran
-
-Langkah:
-
-1. Klik menu **Pendaftaran**
-2. Klik **Tambah Pendaftaran**
-3. Pilih peserta
-4. Pilih event
-5. Tentukan tanggal pendaftaran
-6. Klik **Simpan**
-
-Hasil:
-
-Peserta akan tercatat sebagai peserta pada event yang dipilih.
-
+Berfungsi untuk menghubungkan peserta dengan event yang dipilih. Setiap data pendaftaran akan tersimpan dan dapat dipantau melalui sistem.
+![Pendaftaran Event](pendaftaran.png)
 ---
 
 ## 7. Menu Pembayaran
 
-Digunakan untuk mencatat transaksi pembayaran peserta.
-
-### Tambah Pembayaran
-
-Langkah:
-
-1. Klik menu **Pembayaran**
-2. Klik **Tambah Pembayaran**
-3. Pilih data pendaftaran
-4. Isi jumlah pembayaran
-5. Upload bukti pembayaran
-6. Simpan data
-
-### Verifikasi Pembayaran
-
-Langkah:
-
-1. Buka daftar pembayaran
-2. Pilih transaksi
-3. Ubah status menjadi:
-
-```plaintext
-Valid
-```
-
-atau
-
-```plaintext
-Pending
-```
-
-4. Simpan perubahan
-
+Digunakan untuk mencatat transaksi pembayaran peserta serta melakukan verifikasi status pembayaran menjadi Valid atau Pending.
+![Pembayaran](pembayaran.png)
 ---
 
 ## 8. Menu Laporan
 
-Digunakan untuk melihat hasil rekapitulasi data.
+Menyajikan berbagai informasi statistik seperti total event, total peserta, total pendaftaran, total pendapatan, event terpopuler, pendapatan per event, dan statistik peserta berdasarkan program studi.
 
-### Dashboard Laporan
-
+### Dashboard Laporan, Insight Event, Top 5 Event terpopuler
 Menampilkan:
 
 - Total Event
 - Total Peserta
 - Total Pendaftaran
 - Total Pendapatan
-
-### Insight Event
-
-Menampilkan:
-
 - Event Terpopuler
 - Event Termahal
 - Pembayaran Valid
 - Pembayaran Pending
 
-### Top 5 Event Terpopuler
-
-Menampilkan ranking event berdasarkan jumlah peserta.
-
-### Pendapatan Per Event
-
-Menampilkan:
-
-- Nama Event
-- Total Peserta
-- Biaya Event
-- Total Pendapatan
-
 ### Statistik Program Studi
-
 Menampilkan jumlah peserta berdasarkan program studi.
 
 ---
