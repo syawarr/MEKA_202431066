@@ -188,7 +188,7 @@ Memberikan ringkasan kondisi sistem secara cepat kepada administrator.
 ---
 
 ## 2. Menu User
-digunakan untuk mengelola data pengguna sistem. Admin dapat melakukan operasi CRUD (Create, Read, Update, Delete) terhadap data user yang terdaftar.
+digunakan untuk mengelola data pengguna sistem. Dapat melakukan operasi CRUD (Create, Read, Update, Delete) terhadap data user yang terdaftar.
 
 ![Data User](user.png)
 
@@ -214,6 +214,7 @@ digunakan untuk mengelola data peserta yang mengikuti kegiatan kampus. Data pese
 
 ## 6. Menu Pendaftaran
 Berfungsi untuk menghubungkan peserta dengan event yang dipilih. Setiap data pendaftaran akan tersimpan dan dapat dipantau melalui sistem.
+
 ![Pendaftaran Event](pendaftaran.png)
 ---
 
