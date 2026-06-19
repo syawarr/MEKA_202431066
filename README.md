@@ -23,7 +23,7 @@ Aplikasi ini dikembangkan untuk membantu:
 
 ---
 
-# Struktur Project
+## Struktur Project
 
 ```plaintext
 Student Connect/
@@ -89,29 +89,18 @@ Student Connect/
 
 ## Cara Menjalankan Aplikasi Secara Lokal
 
-## 1. Install XAMPP
-
+### 1. Install XAMPP
 install XAMPP terlebih dahulu dan memastikan service berikut aktif:
 - Apache
 - MySQL
 ---
-## 2. Simpan Project
-
+### 2. Simpan Project
 Pindahkan folder project ke dalam direktori:
-
 ```plaintext
 C:\xampp\htdocs\
 ```
-
-Contoh:
-
-```plaintext
-C:\xampp\htdocs\SIMEKA
-```
-
 ---
-
-## 3. Membuat Database
+### 3. Membuat Database
 
 Buka browser:
 
