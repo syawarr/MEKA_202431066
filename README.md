@@ -17,7 +17,6 @@ Aplikasi ini dikembangkan untuk membantu:
 
 - PHP Native
 - MySQL
-- HTML5
 - CSS3
 - XAMPP
 
